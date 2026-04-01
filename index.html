@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vault | Cinematic Discoveries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Find You'r Type.</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search for a movie..." required>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <section class="suggestions">
+        <h2>Popular Searches</h2>
+        <div class="suggestion-list" id="suggestion-list">
+            <button type="button" class="suggestion-btn">Harry Potter</button>
+            <button type="button" class="suggestion-btn">Batman</button>
+            <button type="button" class="suggestion-btn">Titanic</button>
+            <button type="button" class="suggestion-btn">Avengers</button>
+            <button type="button" class="suggestion-btn">Inception</button>
+            <button type="button" class="suggestion-btn">John Wick</button>
+            <button type="button" class="suggestion-btn">Interstellar</button>
+            <button type="button" class="suggestion-btn">Joker</button>
+        </div>
+    </section>
+
+    <main>
+        <div id="loading" class="hidden">Fetching movies from the vault...</div>
+        <div id="movie-grid" class="grid-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
