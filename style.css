@@ -40,6 +40,49 @@ button {
     display: none;
 }
 
+#loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    margin: 40px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+.movie-card {
+    background-color: #222;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.movie-title {
+    font-size: 1.1rem;
+    margin: 10px 0 5px 0;
+}
+
+.movie-year {
+    color: #888;
+    font-size: 0.9rem;
+}
+
 .suggestions {
   max-width: 1200px;
   margin: 0 auto 30px;
