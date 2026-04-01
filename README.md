@@ -15,7 +15,7 @@ The objective of this project is to:
 - Handle dynamic data and user interactions efficiently
 
 ## APIs Used
-- Watchmode API – https://api.watchmode.com/
+- OMDB API: https://www.omdbapi.com/
   
 ## Core Features
 1. Live Search
