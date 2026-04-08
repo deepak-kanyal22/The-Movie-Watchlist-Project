@@ -12,7 +12,7 @@ header {
 }
 
 h1 {
-    color: #f1e9ea;
+    color: #ba1d2f;
 }
 
 input, button {
@@ -92,7 +92,7 @@ button {
 .suggestions h2 {
   font-size: 1.4rem;
   margin-bottom: 16px;
-  color: #ffffff;
+  color: #a02c2c;
 }
 
 .suggestion-list {
@@ -116,4 +116,35 @@ button {
   background-color: #03346E;
   border-color: #03346E;
   transform: translateY(-2px);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.light-mode .movie-card {
+    background-color: #eee;
+}
+
+header {
+    position: relative;
+}
+
+.theme-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 10px 14px;
+    background-color: #3509e5;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
 }
