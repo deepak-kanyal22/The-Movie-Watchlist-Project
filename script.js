@@ -1,5 +1,4 @@
-import { API as apiKey } from "./config.js";
-
+const apiKey = "64de80ee";
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");
 const movieGrid = document.getElementById("movie-grid");
